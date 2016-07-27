@@ -20,72 +20,7 @@
     <body>
         <div id="wrapper-outer" >
             <div id="wrapper">
-                <div id="wrapper-inner">
-                    <!-- BREADCRUMB -->
-                    <!--                    <div class="breadcrumb-wrapper">
-                                            <div class="container">
-                                                <div class="row">
-                                                    <div class="span12">
-                                                        <ul class="breadcrumb pull-left">
-                                                            <li><a href="index.html">Home</a></li>
-                                                        </ul> /.breadcrumb 
-                    
-                                                        <div class="account pull-right">
-                                                            <ul class="nav nav-pills">
-                                                                <li><a href="login.html">Login</a></li>
-                                                                <li><a href="registration.html">Registration</a></li>
-                                                            </ul>
-                                                        </div>
-                                                    </div> /.span12 
-                                                </div> /.row 
-                                            </div> /.container 
-                                        </div> /.breadcrumb-wrapper 
-                    
-                                         HEADER 
-                                        <div id="header-wrapper">
-                                            <div id="header">
-                                                <div id="header-inner">
-                                                    <div class="container">
-                                                        <div class="navbar">
-                                                            <div class="navbar-inner">
-                                                                <div class="row">
-                                                                    <div class="logo-wrapper span4">
-                                                                        <a href="#nav" class="hidden-desktop" id="btn-nav">Toggle navigation</a>
-                    
-                                                                        <div class="logo">
-                                                                            <a href="index.html" title="Home">
-                                                                                <img src="assets/img/logo.png" alt="Home">
-                                                                            </a>
-                                                                        </div> /.logo 
-                    
-                                                                        <div class="site-name">
-                                                                            <a href="/" title="Home" class="brand">Realia</a>
-                                                                        </div> /.site-name 
-                    
-                                                                        <div class="site-slogan">
-                                                                            <span>Real estate &amp; Rental<br>made easy</span>
-                                                                        </div> /.site-slogan 
-                                                                    </div> /.logo-wrapper 
-                    
-                                                                    <div class="info">
-                                                                        <div class="site-email">
-                                                                            <a href="mailto:info@byaviators.com">info@byaviators.com</a>
-                                                                        </div> /.site-email 
-                    
-                                                                        <div class="site-phone">
-                                                                            <span>333-666-777</span>
-                                                                        </div> /.site-phone 
-                                                                    </div> /.info 
-                    
-                                                                    <a class="btn btn-primary btn-large list-your-property arrow-right" href="list-your-property.html">List your property</a>
-                                                                </div> /.row 
-                                                            </div> /.navbar-inner 
-                                                        </div> /.navbar 
-                                                    </div> /.container 
-                                                </div> /#header-inner 
-                                            </div> /#header 
-                                        </div> /#header-wrapper -->
-
+                <div id="wrapper-inner">                   
                     <!-- NAVIGATION -->
                     <div id="navigation">
                         <div class="container">
@@ -135,7 +70,7 @@
                                         <!-- /.options -->
                                     </div>
                                     <!-- /.language-switcher -->
-                                    <form method="get" class="site-search" action="search_result.html">
+                                    <form method="get" class="site-search" action="?">
                                         <div class="input-append">
                                             <input class="search-query span2 form-text" placeholder="ค้นหาสินทัรพย์" type="text" name="">
                                             <button type="submit" class="btn"><i class="icon-search"></i></button>
@@ -153,15 +88,22 @@
 
                     <!-- CONTENT -->
                     <div id="content">
-                        <div class="container">
+                        <div class="map-wrapper">
+                            <div class="map">
+                                <div id="map" class="map-inner"></div><!-- /.map-inner -->
 
+                            </div><!-- /.map -->
+                        </div><!-- /.map-wrapper -->
+                        <div class="container">
                             <div id="main">
                                 <div class="row">
                                     <div class="span9">
-                                        <h1 class="page-header">เชิงพาณิชย์</h1>
+                                        <h1 class="page-header">
+                                            ผลการค้นหา
+                                        </h1>
                                         <div class="properties-rows">
                                             <div class="filter">
-                                                <form action="search_result.html" method="get" class="form-horizontal">
+                                                <form action="?" method="get" class="form-horizontal">
                                                     <div class="control-group">
                                                         <label class="control-label" for="inputSortBy">
                                                             ประเภท
@@ -348,7 +290,7 @@
                                         <h2>ค้นหาอสังหาริมทรัพย์</h2>
                                         <div class="property-filter widget">
                                             <div class="content">
-                                                <form method="get" action="search_result.html">
+                                                <form method="get" action="?">
                                                     <div class="location control-group">
                                                         <label class="control-label" for="inputLocation">
                                                             ค้นหาจากสถานที่
@@ -511,8 +453,7 @@
                                 </div>
                             </div>
                         </div>
-
-                    </div><!-- /#content -->
+                    </div>
                 </div><!-- /#wrapper-inner -->
 
                 <div id="footer-wrapper">
@@ -729,8 +670,10 @@
                     </div>
                     <!-- /#footer -->
                 </div>
-            </div><!-- /#wrapper -->
-        </div><!-- /#wrapper-outer -->
+                <!-- /#footer-wrapper -->
+            </div>
+            <!-- /#wrapper -->
+        </div>
 
         <!--        <div class="palette">
                     <div class="toggle">

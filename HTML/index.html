@@ -96,13 +96,13 @@
                                             <a href="index.html">หน้าหลัก</a>
                                         </li>
                                         <li>
-                                            <a href="index.html">ขาย/ให้เช่า</a>
+                                            <a href="listing-grid-filter-1.html">ขาย/ให้เช่า</a>
                                         </li>
                                         <li>
-                                            <a href="index.html">โครงการใหม่</a>
+                                            <a href="listing-grid-filter-2.html">โครงการใหม่</a>
                                         </li>
                                         <li>
-                                            <a href="index.html">เชิงพาณิชย์</a>
+                                            <a href="listing-grid-filter-3.html">เชิงพาณิชย์</a>
                                         </li>
                                         <li>
                                             <a href="contact-us.html">ติดต่อเรา</a>
@@ -169,20 +169,36 @@
                                                             </label>
                                                             <div class="controls">
                                                                 <select id="inputLocation">
+                                                                    <option id="bkk">== ทั้งหมด ==</option>
                                                                     <option id="bkk">กรุงเทพมหานคร</option>
                                                                     <option id="cmi">เชียงใหม่</option>
+                                                                </select>
+                                                            </div><!-- /.controls -->
+                                                        </div><!-- /.control-group -->
+                                                        <div class="location control-group">
+                                                            <label class="control-label" for="inputLocation">
+                                                                เขต/อำภอ
+                                                            </label>
+                                                            <div class="controls">
+                                                                <select id="inputdistrict">
+                                                                    <option id="bkk">== ทั้งหมด ==</option>
+                                                                    <option id="bkk">พระโขนง</option>
+                                                                    <option id="cmi">อ่อนนุช</option>
+                                                                    <option id="cmi">บางรัก</option>
                                                                 </select>
                                                             </div><!-- /.controls -->
                                                         </div><!-- /.control-group -->
 
                                                         <div class="type control-group">
                                                             <label class="control-label" for="inputType">
-                                                                Type
+                                                                ประเภทอสังหาริมทรัพย์
                                                             </label>
                                                             <div class="controls">
                                                                 <select id="inputType">
-                                                                    <option id="apartment">Apartment</option>
-                                                                    <option id="condo">Condo</option>
+                                                                    <option id="bkk">== ทั้งหมด ==</option>
+                                                                    <option id="apartment">บ้านเดี่ยว</option>
+                                                                    <option id="condo">ห้องชุด</option>
+                                                                    <option id="condo">ทาวเฮ้าส์/ทาวโฮม</option>
                                                                 </select>
                                                             </div><!-- /.controls -->
                                                         </div><!-- /.control-group -->
@@ -215,7 +231,7 @@
                                                         <div class="rent control-group">
                                                             <div class="controls">
                                                                 <label class="checkbox" for="inputRent">
-                                                                    <input type="checkbox" id="inputRent"> Rent
+                                                                    <input type="checkbox" id="inputRent"> เช่า
                                                                 </label>
                                                             </div><!-- /.controls -->
                                                         </div><!-- /.control-group -->
@@ -223,7 +239,7 @@
                                                         <div class="sale control-group">
                                                             <div class="controls">
                                                                 <label class="checkbox" for="inputSale">
-                                                                    <input type="checkbox" id="inputSale"> Sale
+                                                                    <input type="checkbox" id="inputSale"> ขาย
                                                                 </label>
                                                             </div><!-- /.controls -->
                                                         </div><!-- /.control-group -->
@@ -256,7 +272,7 @@
                                                         </div><!-- /.price-slider -->
 
                                                         <div class="form-actions">
-                                                            <input type="submit" value="Filter now!" class="btn btn-primary btn-large">
+                                                            <input type="submit" value="ค้นหา!" class="btn btn-primary btn-large">
                                                         </div><!-- /.form-actions -->
                                                     </form>
                                                 </div><!-- /.content -->
@@ -710,102 +726,103 @@
                                         </ul>
                                     </div><!-- /.content -->
                                 </div><!-- /.carousel -->        
-								<div class="features">
-                                    <h2 class="page-header">Theme features</h2>
-
-                                    <div class="row">
-                                        <div class="item span4">
-                                            <div class="row">
-                                                <div class="icon span1">
-                                                    <img src="assets/img/icons/features-seo.png" alt="">
-                                                </div><!-- /.icon -->
-
-                                                <div class="text span3">
-                                                    <h3>SEO Ready</h3>
-                                                    <p>Realia is ready to put your website on higher ranks. Every line of code was developed with SEO principles in mind.</p>
-                                                </div><!-- /.logo -->
-                                            </div><!-- /.row -->
-                                        </div><!-- /.item -->
-
-                                        <div class="item span4">
-                                            <div class="row">
-                                                <div class="icon span1">
-                                                    <img src="assets/img/icons/features-retina.png" alt="">
-                                                </div><!-- /.icon -->
-
-                                                <div class="text span3">
-                                                    <h3>Retina Ready</h3>
-                                                    <p>Realia looks great even on Retina and high-resoultion displays. Every graphic element is sharp and clean. No blurry images anymore!</p>
-                                                </div><!-- /.logo -->
-                                            </div><!-- /.row -->
-                                        </div><!-- /.item -->
-
-                                        <div class="item span4">
-                                            <div class="row">
-                                                <div class="icon span1">
-                                                    <img src="assets/img/icons/features-custom-widgets.png" alt="">
-                                                </div><!-- /.icon -->
-
-                                                <div class="text span3">
-                                                    <h3>Custom Widgets</h3>
-                                                    <p>Realia provides custom developed widgets to fulfil requirements of good real estate application.</p>
-                                                </div><!-- /.logo -->
-                                            </div><!-- /.row -->
-                                        </div><!-- /.item -->
-                                    </div>
-                                    <div class="row">
-                                        <div class="item span4">
-                                            <div class="row">
-                                                <div class="icon span1">
-                                                    <img src="assets/img/icons/features-bootstrap.png" alt="">
-                                                </div><!-- /.icon -->
-
-                                                <div class="text span3">
-                                                    <h3>Prepared for Bootstrap</h3>
-                                                    <p>Developer friendly code based on Bootstrap and SASS makes your own customizations really easy.</p>
-                                                </div><!-- /.logo -->
-                                            </div><!-- /.row -->
-                                        </div><!-- /.item -->
-
-                                        <div class="item span4">
-                                            <div class="row">
-                                                <div class="icon span1">
-                                                    <img src="assets/img/icons/features-pencil.png" alt="">
-                                                </div><!-- /.icon -->
-
-                                                <div class="text span3">
-                                                    <h3>Frontend Submission</h3>
-                                                    <p>Make the portal solution from your real estate by providing property submission on homepage.</p>
-                                                </div><!-- /.logo -->
-                                            </div><!-- /.row -->
-                                        </div><!-- /.item -->
-
-                                        <div class="item span4">
-                                            <div class="row">
-                                                <div class="icon span1">
-                                                    <img src="assets/img/icons/features-responsive.png" alt="">
-                                                </div><!-- /.icon -->
-
-                                                <div class="text span3">
-                                                    <h3>Responsive</h3>
-                                                    <p>Realia is ready to put your website on higher ranks. Every line of code was developed with SEO principles in mind.</p>
-                                                </div><!-- /.logo -->
-                                            </div><!-- /.row -->
-                                        </div><!-- /.item -->
-                                    </div><!-- /.row -->
-                                </div><!-- /.features -->    </div>
+                                <!--                                <div class="features">
+                                                                    <h2 class="page-header">Theme features</h2>
+                                
+                                                                    <div class="row">
+                                                                        <div class="item span4">
+                                                                            <div class="row">
+                                                                                <div class="icon span1">
+                                                                                    <img src="assets/img/icons/features-seo.png" alt="">
+                                                                                </div> /.icon 
+                                
+                                                                                <div class="text span3">
+                                                                                    <h3>SEO Ready</h3>
+                                                                                    <p>Realia is ready to put your website on higher ranks. Every line of code was developed with SEO principles in mind.</p>
+                                                                                </div> /.logo 
+                                                                            </div> /.row 
+                                                                        </div> /.item 
+                                
+                                                                        <div class="item span4">
+                                                                            <div class="row">
+                                                                                <div class="icon span1">
+                                                                                    <img src="assets/img/icons/features-retina.png" alt="">
+                                                                                </div> /.icon 
+                                
+                                                                                <div class="text span3">
+                                                                                    <h3>Retina Ready</h3>
+                                                                                    <p>Realia looks great even on Retina and high-resoultion displays. Every graphic element is sharp and clean. No blurry images anymore!</p>
+                                                                                </div> /.logo 
+                                                                            </div> /.row 
+                                                                        </div> /.item 
+                                
+                                                                        <div class="item span4">
+                                                                            <div class="row">
+                                                                                <div class="icon span1">
+                                                                                    <img src="assets/img/icons/features-custom-widgets.png" alt="">
+                                                                                </div> /.icon 
+                                
+                                                                                <div class="text span3">
+                                                                                    <h3>Custom Widgets</h3>
+                                                                                    <p>Realia provides custom developed widgets to fulfil requirements of good real estate application.</p>
+                                                                                </div> /.logo 
+                                                                            </div> /.row 
+                                                                        </div> /.item 
+                                                                    </div>
+                                                                    <div class="row">
+                                                                        <div class="item span4">
+                                                                            <div class="row">
+                                                                                <div class="icon span1">
+                                                                                    <img src="assets/img/icons/features-bootstrap.png" alt="">
+                                                                                </div> /.icon 
+                                
+                                                                                <div class="text span3">
+                                                                                    <h3>Prepared for Bootstrap</h3>
+                                                                                    <p>Developer friendly code based on Bootstrap and SASS makes your own customizations really easy.</p>
+                                                                                </div> /.logo 
+                                                                            </div> /.row 
+                                                                        </div> /.item 
+                                
+                                                                        <div class="item span4">
+                                                                            <div class="row">
+                                                                                <div class="icon span1">
+                                                                                    <img src="assets/img/icons/features-pencil.png" alt="">
+                                                                                </div> /.icon 
+                                
+                                                                                <div class="text span3">
+                                                                                    <h3>Frontend Submission</h3>
+                                                                                    <p>Make the portal solution from your real estate by providing property submission on homepage.</p>
+                                                                                </div> /.logo 
+                                                                            </div> /.row 
+                                                                        </div> /.item 
+                                
+                                                                        <div class="item span4">
+                                                                            <div class="row">
+                                                                                <div class="icon span1">
+                                                                                    <img src="assets/img/icons/features-responsive.png" alt="">
+                                                                                </div> /.icon 
+                                
+                                                                                <div class="text span3">
+                                                                                    <h3>Responsive</h3>
+                                                                                    <p>Realia is ready to put your website on higher ranks. Every line of code was developed with SEO principles in mind.</p>
+                                                                                </div> /.logo 
+                                                                            </div> /.row 
+                                                                        </div> /.item 
+                                                                    </div> /.row 
+                                                                </div> /.features     -->
+                            </div>
                         </div>
 
-                        <div class="bottom-wrapper">
+                        <div class="bottom-wrapper" style="margin-top:30px;">
                             <div class="bottom container">
                                 <div class="bottom-inner row">
-									<div class="item span4">
+                                    <div class="item span4">
                                         <div class="key decoration"></div>
                                         <h2><a>อสังหาริมทรัพย์แนวราบ</a></h2>
                                         <p>เป็นช่องทางในการค้นหาอสังหาริมทรัพย์แนวราบ อย่างเช่น บ้านเดี่ยว ทาวน์โฮม และ อาคารพาณิชย์</p>
                                         <!--<a href="#" class="btn btn-primary">Read more</a>-->
                                     </div><!-- /.item -->
-									
+
                                     <div class="item span4">
                                         <div class="address decoration"></div>
                                         <h2><a>การดูตำแหน่ง</a></h2>

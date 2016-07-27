@@ -269,7 +269,7 @@ function LoadMapProperty() {
         var marker = new google.maps.Marker({
             position: new google.maps.LatLng(location[0], location[1]),
             map: map,
-            icon: 'assets/img/marker.png'
+            icon: 'http://html.realia.byaviators.com/assets/img/marker-transparent.png'
         });
 
         var myOptions = {
@@ -348,11 +348,11 @@ function LoadMap() {
         var marker = new google.maps.Marker({
             position: new google.maps.LatLng(location[0], location[1]),
             map: map,
-            icon: 'http://html.realia.byaviators.com/assets/img/marker-transparent.png'
+            icon: 'assets/img/marker.png'
         });
 
         var myOptions = {
-            content: '<div class="infobox"><div class="image"><img src="http://html.realia.byaviators.com/assets/img/tmp/property-tiny-1.png" alt=""></div><div class="title"><a href="detail.html">1041 Fife Ave</a></div><div class="area"><span class="key">Area:</span><span class="value">200m<sup>2</sup></span></div><div class="price">€450 000.00</div><div class="link"><a href="detail.html">View more</a></div></div>',
+            content: '<div class="infobox"><div class="image"><img src="assets/img/detail/1.jpg" alt="" width="70px"></div><div class="title"><a href="detail.html">1041 Fife Ave</a></div><div class="area"><span class="key">Area:</span><span class="value">200m<sup>2</sup></span></div><div class="price">€450 000.00</div><div class="link"><a href="detail.html">View more</a></div></div>',
             disableAutoPan: false,
             maxWidth: 0,
             pixelOffset: new google.maps.Size(-146, -190),
